@@ -7,6 +7,7 @@ branches:
  only:
   - master # build master branch only
 script:
+<<<<<<< HEAD
   - hexo clean
   - hexo generate
 deploy:
@@ -17,3 +18,15 @@ deploy:
  on:
   branch: master
  local-dir: public
+=======
+  - hexo g
+  - hexo d
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  on:
+    branch: master
+  local-dir: public
+>>>>>>> 968293871593fe3e02e289d3f28ae46a06954111
