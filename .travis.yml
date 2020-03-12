@@ -13,7 +13,7 @@ branches:
 before_install:
  - git config user.name "gaona233"
  - git config user.email "1064193183@qq.com"
- - sed -i'' "s~https://github.com/gaona233/gaona.github.io.git~https://${GH_TOKEN}@github.com/gaona233/gaona.github.io.git~" _config.yml
+ - sed -i'' "s~https://github.com/gaona233/gaona.github.io.git~git@github.com:gaona233/gaona.github.io.git~" _config.yml
 
 # Start: Build Lifecycle
 install:
