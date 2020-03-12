@@ -106,7 +106,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository: https://github.com/gaona233/gaona.github.io
+  repository: git@github.com:gaona233/gaona.github.io.git
   branch: master
 
 # 内容搜索
