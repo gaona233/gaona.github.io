@@ -7,7 +7,7 @@ node_js:
 
 branches:
  only:
-  - master
+  - gh-pages
 
 # 指定博客源码分支，因人而异。hexo博客源码托管在独立repo则不用设置此项
 before_install:
