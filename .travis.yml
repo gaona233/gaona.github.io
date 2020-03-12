@@ -5,10 +5,12 @@ language: node_js
 node_js:
  - '10'
 
- branches:
+branches:
   only:
    - master
 
+global:
+   - GH_REF: github.com/gaona233/gaona.github.io.git
 
 # 指定博客源码分支，因人而异。hexo博客源码托管在独立repo则不用设置此项
 before_install:
