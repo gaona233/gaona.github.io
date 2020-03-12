@@ -107,7 +107,7 @@ theme: hexo-theme-matery
 deploy:
   type: git
   repository: https://github.com/gaona233/gaona.github.io.git
-  branch: master
+  branch: gh-pages
 
 # 内容搜索
 search:
