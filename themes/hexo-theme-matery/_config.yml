@@ -2,22 +2,22 @@
 # 配置菜单导航的名称、路径和图标icon.
 menu:
   Index:
-    url: /
+    url: /gaona.github.io
     icon: fas fa-home
   Tags:
-    url: /tags
+    url: /gaona.github.io/tags
     icon: fas fa-tags
   Categories:
-    url: /categories
+    url: /gaona.github.io/categories
     icon: fas fa-bookmark
   Archives:
-    url: /archives
+    url: /gaona.github.io/archives
     icon: fas fa-archive
   About:
-    url: /about
+    url: /gaona.github.io/about
     icon: fas fa-user-circle
   Contact:
-    url: /contact
+    url: /gaona.github.io/contact
     icon: fas fa-comments
   # 二级菜单写法如下
   #Medias:
