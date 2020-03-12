@@ -5,6 +5,11 @@ language: node_js
 node_js:
  - '10'
 
+ branches:
+  only:
+   - master
+
+
 # 指定博客源码分支，因人而异。hexo博客源码托管在独立repo则不用设置此项
 before_install:
   - git config user.name "gaona233"
@@ -29,9 +34,4 @@ script:
  - npm run deploy
 
 
-branches:
- only:
-  - master
-env:
- global:
-  - GH_REF: github.com/gaona233/gaona.github.io.git
+
