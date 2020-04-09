@@ -36,13 +36,13 @@
     }
 
     // description.
-    var description = null;
-    if (page.summary) {
-        description = page.summary;
-    } else if (page.hasOwnProperty('__post') && page.__post) {
-        description = strip_html(page.content).substring(0, 120);
-    }
-    description = description ? description : pageTitle;
+    var description = config.description ? config.description : config.title;;
+   if (page.description) {
+       description = page.description;
+   } else if (page.hasOwnProperty('__post') && page.__post) {
+       description = strip_html(page.content).substring(0, 120);
+  }
+
 
     let iconType = 'image/png'
     let faviconExt = theme.favicon.substr(theme.favicon.lastIndexOf('.') + 1, theme.favicon.length)
